@@ -4,7 +4,7 @@
 
 [Bootstrap 4](http://getbootstrap.com/), [bootswatch](https://bootswatch.com/) and netlify CMS starter for Gatsby
 
-This repo contains an example blog that is built with [Gatsby](https://www.gatsbyjs.org/), and [Netlify CMS](https://netlifycms.org): [demo](https://gatsby-starter-bootstrap-netlify.netlify.com)
+This repo contains an example blog that is built with [Gatsby](https://www.gatsbyjs.org/), and [Netlify CMS](https://netlifycms.org): [demo](https://laughing-brattain-0411a2.netlify.com)
 
 It follows the [JAMstack architecture](https://jamstack.org) by using Git as a single source of truth, and [Netlify](netlify.com) for continuous deployment, and CDN distribution.
 
@@ -18,7 +18,7 @@ It follows the [JAMstack architecture](https://jamstack.org) by using Git as a s
 ### Run Locally
 
 ```sh
-gatsby new [SITE_DIRECTORY_NAME] https://github.com/konsumer/gatsby-starter-bootstrap-netlify/
+gatsby new [SITE_DIRECTORY_NAME] https://github.com/nitya-nepal/bootstrapnetlify/
 cd [SITE_DIRECTORY_NAME]
 npm start
 ```
