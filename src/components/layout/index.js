@@ -31,10 +31,6 @@ const TemplateWrapper = ({ children, data }) => {
                   <a href='/admin' className='nav-link'>Admin</a>
                 </li>
               )}
-
-              <li className='nav-item'>
-                <Link to='/about' className='nav-link'>About</Link>
-              </li>
             </ul>
           </Container>
         </div>

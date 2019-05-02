@@ -8,9 +8,9 @@ media_folder: "/static/files/"
 public_folder: "/files/"
 
 collections:
-  - name: "about"
-    label: "About"
-    folder: "src/pages/about"
+  - name: "index"
+    label: "Index"
+    folder: "src/pages"
     create: false
     slug: "{{slug}}"
     fields:
@@ -20,6 +20,6 @@ collections:
           widget: "hidden",
           default: "about",
         }
-      - { label: "Path", name: "path", widget: "hidden", default: "/about" }
+      - { label: "Path", name: "path", widget: "hidden", default: "/" }
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Body", name: "body", widget: "markdown" }
