@@ -3,6 +3,7 @@ import { Container, Card, CardText, CardBody, CardTitle, CardSubtitle } from 're
 // import Link from 'gatsby-link'
 // import { graphql } from 'gatsby'
 import Layout from '../components/layout'
+import Contact from '../pages/contact'
 
 const IndexPage = () => {
   return (
@@ -13,6 +14,11 @@ const IndexPage = () => {
               <CardTitle>Hello</CardTitle>
               <CardSubtitle style={{marginBottom: 10}}>Worlds</CardSubtitle>
               <CardText>This is blank</CardText>
+            </CardBody>
+          </Card>
+          <Card>
+            <CardBody>
+              <Contact />
             </CardBody>
           </Card>
       </Container>
